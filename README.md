@@ -11,6 +11,8 @@ https://fakestoreapi.com/
 --------------------------------------------------------------------------------------------------------
 
 E-COMMERCE ONLINE
+![image](https://github.com/user-attachments/assets/b55d8bcc-e7b9-4d21-9cef-b0ba2f146424)
+
 ![image](https://github.com/user-attachments/assets/e28be853-3188-43db-85b0-fa39ede6004d)
 
 ![image](https://github.com/user-attachments/assets/14671c66-8bfc-4aca-8e4f-ee85ca6ff61b)
