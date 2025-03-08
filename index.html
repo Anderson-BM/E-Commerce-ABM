@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="Style.css" />
+    <!-- Enlace a Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <img class="logo" src="img/logo/LOGO.png"" />
+    <h1 class="temaT">
+      Tienda Online Algo diferente a los Demas
+      <strong class="temaTT"> ... </strong>
+      <br />
+      <br />
+    </h1>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <br />
+
+    <hr />
+    <!-- USUARIO ACTIVO -->
+    <div class="container">
+      <div class="conatiner-img">
+        <img class="img-anderson" src="img/yyy.avif" alt="" />
+        <div class="container-texto">
+          <h2>Anderson Batista</h2>
+          <h3>PAIS: RD</h3>
+          <h3>Matricula: 000000</h3>
+        </div>
+      </div>
+    </div>
+    <h1 class="tema">
+      Un Estilo, A Otro Nivel <strong class="tema1"> , ABM </strong>
+    </h1>
+    <div class="contenedor">
+      <img class="logo1" src="/LOGO/ABM1.png" alt="" />
+    </div>
+
+
+    
+    <!-- Contenedor del Carrusel -->
+    <div class="carousel-container">
+        <div class="swiper mySwiper">
+          <div class="carril-carousel">
+            <!-- Las tarjetas de productos se generarán aquí dinámicamente -->
+          </div>
+        </div>
+        
+        <!-- Botones de navegación -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+      <!-- Agregar Swiper.js desde CDN -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Función para agregar productos al carrusel
+      function mostrarCarousel(productos) {
+        const carril = document.querySelector(".swiper-wrapper");
+        productos.forEach((producto) => {
+          const slide = document.createElement("div");
+          slide.classList.add("swiper-slide");
+          slide.innerHTML = `
+            <div class="card">
+              <img src="${producto.image}" alt="${producto.title}">
+              <h3>${producto.title}</h3>
+              <button>Ver más</button>
+            </div>
+          `;
+          carril.appendChild(slide);
+        });
+          // Inicializa Swiper.js
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+            },
+          });
+        }
+      // Llamar a la función para mostrar los productos
+      mostrarCarousel(productos);
+    </script>
+
+
+
+
+
+    <!-- TARJETA CARD DE LOS  PRODUCTOS -->
+    <div id="productos" style="display: flex; flex-wrap: wrap; gap: 10px"></div>
+
+    <!-- MOSTRAR MAS INFORMACION HACERCA DE LOS PRODUCTOS -->
+    <div id="productModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Producto" />
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <p><strong>Precio:</strong> $<span id="modalPrice"></span></p>
+        <p><strong>Categoría:</strong> <span id="modalCategory"></span></p>
+        <p><strong>Rating:</strong> <span id="modalRating"></span> ⭐</p>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+<h1 class="temaT">
+    CONTACTANOS PARA PODER AYUDARTE
+    <strong class="temaTT"> ... </strong>
+    <br />
+    <br />
+  </h1>
+ <!-- FORMULARIO DE CONTACTO -->
+ <div class="conform">
+<form action="https://formsubmit.co/andersonbatistamateo@gmail.com" method="POST" autocomplete="off">
+    <h2>Contacto</h2>
+    <div class="form-txt">
+      <a href="#">Politicas de privacidad</a>
+      <a href="#">Terminos y condiciones</a>
+    </div>
+    <div class="input-group">
+
+      <input type="text" name="name" placeholder="Nombre">
+
+      <input type="tel" name="phone" placeholder="Telefono">
+
+      <input type="email" name="email" placeholder="Email">
+
+      <textarea name="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+      <input class="btn" type="submit" value="Enviar">
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+      <input type="hidden" name="_captcha" value="false">
+
+    </div>
+ 
+  </form>
+  <img class="on" src="img/online.png" alt="" style="width: 695px; padding-left: 74px; ">
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+  </body>
+  <script src="Script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</html>
+
+
+
+
+
+
+
