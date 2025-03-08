@@ -11,6 +11,12 @@ https://fakestoreapi.com/
 --------------------------------------------------------------------------------------------------------
 
 E-COMMERCE ONLINE
+![image](https://github.com/user-attachments/assets/e28be853-3188-43db-85b0-fa39ede6004d)
+
+![image](https://github.com/user-attachments/assets/14671c66-8bfc-4aca-8e4f-ee85ca6ff61b)
+
+![Uploading image.png…]()
+
 ![image](https://github.com/user-attachments/assets/b003a3f0-78d8-45c6-8094-66e97d957cb2)
 
 Area de Contacto
