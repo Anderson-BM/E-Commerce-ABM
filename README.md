@@ -5,6 +5,9 @@ Practica de la Materia Programacion WEB, en el instituto Tecnologico de las Amer
 API UTILIZADA PARA ESTE COMERCIO ONLINE
 https://fakestoreapi.com/
 
+VER PAGINA EN LINEA https://fakestoreapi.com/
+https://fakestoreapi.com/
+
 --------------------------------------------------------------------------------------------------------
 
 E-COMMERCE ONLINE
