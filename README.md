@@ -14,7 +14,8 @@ E-COMMERCE ONLINE
 
 ![image](https://github.com/user-attachments/assets/14671c66-8bfc-4aca-8e4f-ee85ca6ff61b)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8ed2cb2d-64ee-4913-a7e3-ae771c65e427)
+
 
 ![image](https://github.com/user-attachments/assets/b003a3f0-78d8-45c6-8094-66e97d957cb2)
 
